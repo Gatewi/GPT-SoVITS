@@ -42,6 +42,7 @@ huggingface-cli download nvidia/bigvgan_v2_24khz_100band_256x --local-dir GPT_So
 echo ">>> Downloading Base Huberts & Robertas..."
 huggingface-cli download lj1995/GPT-SoVITS --include "chinese-roberta-wwm-ext-large/*" --local-dir GPT_SoVITS/pretrained_models
 huggingface-cli download lj1995/GPT-SoVITS --include "chinese-hubert-base/*" --local-dir GPT_SoVITS/pretrained_models
+huggingface-cli download lj1995/GPT-SoVITS --include "fast_langdetect/*" --local-dir GPT_SoVITS/pretrained_models
 
 if [ "$INSTALL_MODE" == "Full" ]; then
     echo ">>> Downloading Fine-tuning Models (ASR & UVR5)..."
