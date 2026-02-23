@@ -41,4 +41,8 @@ pip install -r requirements.txt
 pip install huggingface_hub
 pip install torchcodec
 
+# Download necessary NLTK data for text preprocessing
+echo ">>> Downloading NLTK data..."
+python -m nltk.downloader averaged_perceptron_tagger_eng
+
 echo ">>> Core installation complete."
