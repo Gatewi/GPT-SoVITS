@@ -54,7 +54,7 @@ cat <<EOF > configs/s2.json
   "custom": {
     "device": "cpu",
     "is_half": false,
-    "version": "v2",
+    "version": "v3",
     "t2s_weights_path": "GPT_SoVITS/pretrained_models/s1v3.ckpt",
     "vits_weights_path": "GPT_SoVITS/pretrained_models/s2Gv3.pth",
     "bert_base_path": "GPT_SoVITS/pretrained_models/chinese-roberta-wwm-ext-large",
