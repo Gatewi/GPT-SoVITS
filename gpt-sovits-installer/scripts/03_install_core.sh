@@ -39,5 +39,6 @@ pip install -r requirements.txt
 # Additional dependencies for Fine-tuning not in requirements.txt (if any)
 # Usually requirements.txt covers it, but we add safe guards.
 pip install huggingface_hub
+pip install torchcodec
 
 echo ">>> Core installation complete."
